@@ -24,6 +24,14 @@
 
 → 读者一眼知道在说什么、跟自己有没有关系。
 
+## 安装
+
+```bash
+git clone https://github.com/boaliu0325-prog/title-humanizer.git ~/.claude/skills/title-humanizer
+```
+
+安装后重启 Claude Code 即可使用。
+
 ## 怎么用
 
 在 Claude Code 中输入以下任一触发词即可：
