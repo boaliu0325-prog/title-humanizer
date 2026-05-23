@@ -26,6 +26,14 @@
 
 ## 安装
 
+**一键安装：**
+
+```bash
+npx skills add boaliu0325-prog/title-humanizer@title-humanizer -g -y
+```
+
+**手动安装：**
+
 ```bash
 git clone https://github.com/boaliu0325-prog/title-humanizer.git ~/.claude/skills/title-humanizer
 ```
