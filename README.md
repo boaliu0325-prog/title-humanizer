@@ -155,7 +155,11 @@ title-humanizer/
 ├── evals/
 │   └── evals.json        ← 测试用例
 └── user/                 ← 个人风格档案（本地专属，不会上传）
-    └── style.md          ← 记录你的语言习惯，越用越准
+    ├── style.md          ← 提炼后的风格规律，每5次汇总覆盖更新
+    └── sessions/         ← 原始对话记录，永久保留
+        ├── README.md
+        ├── session_001.md
+        └── ...
 ```
 
 ## 个人风格档案
