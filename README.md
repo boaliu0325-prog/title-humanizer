@@ -151,10 +151,20 @@ title-humanizer/
 ├── SKILL.md              ← 核心流程和规则
 ├── README.md             ← 本说明文档
 ├── references/
-│   └── examples.md       ← 5个完整工作示例
-└── evals/
-    └── evals.json        ← 测试用例
+│   └── examples.md       ← 完整工作示例
+├── evals/
+│   └── evals.json        ← 测试用例
+└── user/                 ← 个人风格档案（本地专属，不会上传）
+    └── style.md          ← 记录你的语言习惯，越用越准
 ```
+
+## 个人风格档案
+
+`user/` 文件夹已加入 `.gitignore`，不会被推送到 GitHub。
+
+这个文件夹记录你的语言习惯，让 skill 生成的标题越来越接近你自己会说的话。每次会话结束后，skill 会询问是否保存本次风格记录，由你确认后才写入。
+
+⚠️ **如果你 fork 或分享这个项目，请确认 `user/` 文件夹没有被包含在内。**
 
 ## 参考资源
 
